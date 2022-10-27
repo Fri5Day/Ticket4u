@@ -1,0 +1,97 @@
+input {
+
+    width: 400px;
+    height: 40px;
+    border-radius: 8px;
+}
+
+/* Fundo tela login */
+.login {
+
+    margin: auto;
+    margin-top: auto;
+    width: 600px;
+    height: 500px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    z-index: 5;
+}
+
+/*  */
+.input-type-email {
+
+    width: 300px;
+    height: 38px;
+    margin-left: 100px;
+
+}
+
+/* Texto senha */
+.input-type-password h1 {
+
+    margin-left: -55px;
+}
+
+/* Configuração texto e-mail */
+.text-email {
+
+    width: 200px;
+    height: 38px;
+    margin-top: 70px;
+    margin-left: -55px;
+    font-size: 30px;
+    color: #000000;
+}
+
+
+.input-type-password {
+
+    width: 3px;
+    height: 38px;
+    margin-left: 100px;
+
+}
+
+.input-type-password input {
+
+    margin-top: -160px;
+
+}
+
+/* Configuração texto senha */
+.text-password {
+
+    width: 200px;
+    height: 200px;
+    margin-top: 70px;
+    font-size: 30px;
+    color: #000000;
+}
+
+.Entrar {
+    margin-top: 100px;
+}
+
+.Entrar button {
+
+    width: 400px;
+    height: 50px;
+    background: rgba(100, 33, 242, 0.9);
+    color: #FFFFFF;
+    border-color: #FFFFFF;
+    box-shadow: 0px 4px 10px rgba(10, 10, 10, 0.25);
+    border-radius: 8px;
+}
+
+.Entrar h1 {
+
+    width: 383px;
+    height: 33px;
+    margin-left: 100px;
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 32px;
+
+}
