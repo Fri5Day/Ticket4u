@@ -9,7 +9,7 @@ input {
 .login {
 
     margin: auto;
-    margin-top: -130px;
+    margin-top: auto;
     width: 600px;
     height: 500px;
     background: #FFFFFF;
@@ -27,12 +27,6 @@ input {
 
 }
 
-/* Texto E-mail */
-.input-type-email h1 {
-
-    margin-left: -55px;
-}
-
 /* Texto senha */
 .input-type-password h1 {
 
@@ -45,6 +39,7 @@ input {
     width: 200px;
     height: 38px;
     margin-top: 70px;
+    margin-left: -55px;
     font-size: 30px;
     color: #000000;
 }
