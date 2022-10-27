@@ -1,0 +1,80 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <link rel="stylesheet" href="../components/lines/lines.css">
+    <link rel="stylesheet" href="register.css">
+    <title>Ticket4U - Register</title>
+</head>
+
+<body>
+    <div id="lines">
+        <script>
+            $(function () {
+                $("#lines").load("../components/lines/lines.html");
+            });
+        </script>
+    </div>
+
+
+    <div class="text-center register">
+
+        <div class="principal">
+            <h1> Register </h1>
+
+            <div class="input-type-email">
+                <h1 class="text-email">E-mail</h1>
+                <input type="text" name="" id="email">
+            </div>
+
+            <div class="input-password">
+                <h1 class="text-password">Senha</h1>
+                <input type="password" name="" id="senha1">
+
+            </div>
+
+            <div class="input-confirma ">
+                <h1 class="text-confirma">Confirme a senha</h1>
+                <input type="password" name="" id="senha2">
+
+            </div>
+
+            <div class="question">
+                <h1 class="text-question">Você é</h1>
+                
+                <button type="button" id="button-juridica" class="btn btn-light">Produtor</button>
+                <button type="button" id="button-fisica" class="btn btn-light">Consumidor</button>
+            </div>
+
+            <div class="input-cnpj" id="1">
+                <h3 class="text-cnpj">CNPJ</h3>
+                <input type="text" name="" id="cnpj">
+
+                <h3 class="text-empresa">Nome da empresa</h3>
+
+                <input type="text" name="" id="name_empresa" style="margin-left: 240px;">
+            </div>
+
+            <div class="input-username" id="2">
+                <h3 class="text-user">Nome de usuário</h3>
+                <input type="text" name="" id="name">
+            </div>
+
+            <div class="cadastrar-button">
+                <button id="cadastrar-button">Cadastrar</button>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="./register.js" defer></script>
+    <script src="./../request.js"></script>
+</body>
+</html>

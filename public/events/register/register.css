@@ -1,0 +1,107 @@
+input {
+
+    height: 40px;
+    border-radius: 8px;
+
+}
+
+select{
+    height: 40px;
+    border-radius: 8px;
+}
+
+/* Fundo tela evento */
+.events {
+
+    margin: auto;
+    margin-top: -100px;
+    width: 600px;
+    height: 850px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    z-index: 5;
+
+}
+
+.input-nome-evento {
+
+    width: 220px;
+    margin-left: 80px;
+    margin-top: 50px;
+
+}
+
+.input-nome-evento input {
+    width: 439px;
+}
+
+.input-data{
+    margin-top: 30px;
+    width: 70px;
+    margin-left: 80px;
+}
+
+.input-categoria{
+        margin-left: 280px;
+        margin-top: -80px;
+
+}
+
+.input-categoria h3{
+    margin-left: -20px;
+}
+
+.input-poster{
+    width: 160px;
+    margin-left: 80px;
+    margin-top: 50px;
+}
+
+.input-poster input{
+    width: 439px;
+}
+
+.input-site-ingresso{
+    width: 300px;
+    margin-left: 80px;
+    margin-top: 20px;
+}
+
+.input-site-ingresso input{
+    width: 439px;
+}
+
+.input-descricao{
+    width: 140px;
+    margin-left: 80px;
+    margin-top: 20px;
+}
+
+.input-descricao input{
+    width: 439px;
+}
+
+.input-local{
+    width: 1px;
+    margin-left: 80px;
+    margin-top: 20px;
+}
+
+.input-ingresso{
+    margin-left: 280px;
+    margin-top: -80px;
+}
+
+.button-registrar button {
+    width: 400px;
+    height: 50px;
+    margin-top: 50px;
+    margin-left: -260px;
+    background: rgba(100, 33, 242, 0.9);
+    color: #FFFFFF;
+    border-color: #FFFFFF;
+    box-shadow: 0px 4px 10px rgba(10, 10, 10, 0.25);
+    border-radius: 8px;
+}
+

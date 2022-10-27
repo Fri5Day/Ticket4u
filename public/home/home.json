@@ -1,0 +1,24 @@
+{
+    "ticket": [
+        {
+            "subcategory": "Esporte",
+            "image-link": "https://love.doghero.com.br/wp-content/uploads/2018/12/golden-retriever-1.png"
+
+        },
+        {
+            "subcategory": "Teatro",
+            "image-link": "https://www.hypeness.com.br/1/2020/07/balltze-grande.jpg"
+
+        },
+        {
+            "subcategory": "Shows",
+            "image-link": "https://s2.glbimg.com/epHyTIo2TSkHZ43DXZPZoeC8a_M=/0x0:959x540/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2021/h/J/Ui4XL0So6yEilj6DeGXg/memedoge.jpg"
+
+        },
+        {
+            "subcategory": "E-Sports",
+            "image-link": "https://i1.wp.com/omarciano.com.br/wp-content/uploads/2019/07/nbc.png?fit=1026%2C730&ssl=1"
+
+        }
+    ]
+}
