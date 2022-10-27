@@ -1,0 +1,39 @@
+body {
+    overflow: hidden;
+}
+
+.line-blue {
+    position: relative;
+    width: 1400px;
+    height: 47px;
+    left: 543.42px;
+    top: 300px;
+
+    background: #18A0FB;
+    transform: rotate(35deg);
+    z-index: -1;
+}
+
+.line-cyan {
+    position: relative;
+    width: 1400px;
+    height: 47px;
+    left: 682.96px;
+    top: 550px;
+
+    background: #71F0B3;
+    transform: rotate(35deg);
+    z-index: -3;
+}
+
+.line-purple {
+    position: relative;
+    width: 1400px;
+    height: 47px;
+    left: 568px;
+    top: 500px;
+
+    background: #6421F2;
+    transform: rotate(-35deg);
+    z-index: -2;
+}
