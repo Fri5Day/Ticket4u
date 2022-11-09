@@ -74,3 +74,36 @@
   line-height: 75px;
   color: #ffffff;
 }
+
+@media (max-width: 576px) { 
+
+  *{
+      height: auto;
+      width: auto;
+  }
+
+}
+
+
+@media (min-width: 768px) { 
+
+  *{
+      height: auto;
+      width: auto;
+  }
+
+}
+
+
+@media (min-width: 992px) { 
+  *{
+      height: auto;
+      width: auto;
+  } }
+
+
+@media (min-width: 1200px) { 
+  *{
+      height: auto;
+      width: auto;
+  } }

@@ -271,3 +271,34 @@ body::-webkit-scrollbar {
     line-height: 32px;
 
 }
+
+@media (max-width: 576px) { 
+
+    *{
+        height: auto;
+        width: auto;
+    }
+}
+
+
+@media (min-width: 768px) { 
+
+    *{
+        height: auto;
+        width: auto;
+    }
+ }
+
+
+@media (min-width: 992px) { 
+    *{
+        height: auto;
+        width: auto;
+    } }
+
+
+@media (min-width: 1200px) { 
+    *{
+        height: auto;
+        width: auto;
+    } }
